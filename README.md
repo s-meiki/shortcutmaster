@@ -18,3 +18,17 @@ View your app in AI Studio: https://ai.studio/apps/8c3faa3c-ed11-4077-9b15-73452
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy to GitHub Pages
+
+This repository is configured as a GitHub Pages project site:
+`https://s-meiki.github.io/shortcutmaster/`
+
+1. Push to `main`
+2. In GitHub, open `Settings > Pages`
+3. Set `Build and deployment` source to `GitHub Actions`
+4. Wait for the `Deploy to GitHub Pages` workflow to finish
+
+Notes:
+- Vite `base` is set to `/shortcutmaster/` for production builds.
+- Local development (`npm run dev`) still works from `/`.
